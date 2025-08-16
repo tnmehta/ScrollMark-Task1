@@ -12,6 +12,7 @@ The goal is to provide **social media managers** and **product managers** with a
 ├── Report_Presentation.pptx     # Slides summarizing findings (executive-ready)
 ├── Report_Presentation.pdf      # PDF version of slides
 └── README.md                    # Documentation
+└── requirements.txt             # Requirements File
 ```
 
 ---
