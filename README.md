@@ -81,11 +81,13 @@ The goal is to provide **social media managers** and **product managers** with a
 ## 🔮 Extension Proposal
 
 If extended to a full project:
-1. **Real-time Trend Tracking** — ingest live comments via API + dashboards.
-2. **Clustering + LLM Hybrid** — scalable theme detection without manual rules.
-3. **Regional/Retail Segmentation** — US vs. Canada, Walmart vs. Target, etc.
-4. **Product Roadmap Linkage** — connect demand signals (e.g., “bring back scents”) directly to PM planning.
-5. **Influencer/UGC Monitoring** — detect when promotions or collabs drive spikes.
+1. **Scale the Analysis** — expand from this sample to the full dataset with automated pipelines across months and years to capture **seasonal and yearly trends**.  
+2. **LLM + Clustering Hybrid** — combine unsupervised clustering with LLM-based labeling to detect **emerging themes** without manual rule-based bottlenecks.  
+3. **Granular Segmentation** — enrich insights by **region, retailer (Walmart, Ulta, Target), product line**, and even **customer age groups** for localized strategies.  
+4. **Automation & Monitoring** — productionize workflows with **Airflow/Prefect**, create dashboards in **Looker/Tableau**, and set up ongoing monitoring pipelines.  
+5. **Early Warning System** — implement real-time detection of **negative sentiment spikes** (e.g., drain issues, discontinued scent demand) to proactively address complaints.  
+6. **Product Roadmap Integration** — feed insights into **flavour revival**, **packaging redesign**, and **pricing strategy** discussions with product managers.  
+7. **Influencer & UGC Opportunity** — identify comments requesting **collabs, contests, or influencer tie-ins** to strengthen community engagement.  
 
 ---
 
