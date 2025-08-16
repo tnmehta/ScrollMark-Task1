@@ -11,7 +11,7 @@ The goal is to provide social media managers and product managers with actionabl
 ```
 .
 ├── Task1.ipynb                  # Main analysis notebook (ETL + EDA + insights + visuals)
-├── Report_Presentation.pdf      # PDF version of slides
+├── Report_Presentation.pdf      # Final Report
 └── README.md                    # Documentation
 └── requirements.txt             # Requirements File
 ```
