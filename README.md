@@ -42,7 +42,7 @@ The goal is to provide **social media managers** and **product managers** with a
    - `nltk`, `scikit-learn` — text preprocessing & clustering
    - `vaderSentiment` — sentiment analysis
    - `spacy` — NER (for country detection)
-   - `ollama` (optional) — LLM-assisted theme extraction
+   - `ollama` — LLM-assisted sentiment, flavours and theme extraction
 
 4. **Download NLTK stopwords**
    ```python
@@ -86,6 +86,7 @@ The goal is to provide **social media managers** and **product managers** with a
 - **Notebook (`Task1.ipynb`)**: Full analysis pipeline with modular functions.
 - **Slides (`Report_Presentation.pptx` / `.pdf`)**: Executive-ready summary of findings with visuals.
 - **README.md**: Setup + documentation.
+- **Requirements.txt**: Requirements File to Install and Run the Notebook.
 
 ---
 
@@ -101,8 +102,6 @@ If extended to a full project:
 ---
 
 ## 🤖 AI Tool Usage Disclosure
-- **ChatGPT (OpenAI GPT-5)** was used to assist with:
-  - Code scaffolding (data cleaning, visualization templates).
-  - Drafting README and presentation outlines.
-- **Ollama (gemma3:4b)** optionally used for **flavour extraction** and **insight summarization**.
+- **ChatGPT (OpenAI GPT-5)** 
+- **Ollama (gemma3:4b)**
 - All insights were **cross-validated with manual inspection** to ensure accuracy.
