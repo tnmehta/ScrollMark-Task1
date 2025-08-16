@@ -25,13 +25,7 @@ The goal is to provide **social media managers** and **product managers** with a
    cd <your-repo>
    ```
 
-2. **Create virtual environment**
-   ```bash
-   conda create -n treehut python=3.11
-   conda activate treehut
-   ```
-
-3. **Install dependencies**
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
@@ -44,7 +38,7 @@ The goal is to provide **social media managers** and **product managers** with a
    - `spacy` — NER (for country detection)
    - `ollama` — LLM-assisted sentiment, flavours and theme extraction
 
-4. **Download NLTK stopwords**
+3. **Download NLTK stopwords**
    ```python
    import nltk
    nltk.download("stopwords")
@@ -58,10 +52,10 @@ The goal is to provide **social media managers** and **product managers** with a
    - Removed emojis, hashtags, mentions, URLs, promo codes, and extra punctuation.
    - Normalized casing and stripped whitespace.
 
-2. **Feature Engineering**
+2. **Feature Engineering and Useful Segments**
    - Extracted `day`, `month`, `quarter`, and `season` from `timestamp`.
    - Built `clean_comment` text field.
-   - Classified `sentiment` (Positive / Negative / Neutral) using VADER.
+   - Classified `sentiment` (Positive / Negative / Neutral).
    - Extracted `flavours` (LLM-based + keyword fallback).
    - Assigned `themes` across 10 categories (Fragrance, Availability, Packaging, etc.).
 
@@ -69,15 +63,9 @@ The goal is to provide **social media managers** and **product managers** with a
    - Sentiment distribution overall and by flavour.
    - Top flavours by mentions & positivity %.
    - Trend analysis across **day / month / season**.
-   - Word clouds, n-grams, and bubble charts for key segments.
-   - Network graph of co-occurring terms.
-
+     
 4. **Insights Extraction**
-   - LLM-assisted top-10 insights per theme.
-   - Highlighted **3 Key Takeaways**:
-     - 🌸 Fragrance drives loyalty & complaints.  
-     - 🏪 Retail distribution is a bottleneck.  
-     - 📦 Packaging & usage friction hurts experience.  
+   - LLM-assisted top-3 insights per theme.
 
 ---
 
